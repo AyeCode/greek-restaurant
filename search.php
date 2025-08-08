@@ -5,7 +5,7 @@ get_header(); ?>
 
 
     <h1 class="kt-post-entry-title kt-search-title">
-        <?php echo __('Search results for the term: ','greek-restaurant'). $_GET['s']; ?>
+        <?php echo esc_html( wp_sprintf( __( 'Search results for the term: %s', 'greek-restaurant' ), get_search_query( false ) ) ); ?>
         <?php if($paged > 1):
             echo
                 '<small>'.__('   Page:
