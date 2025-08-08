@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cookie Regular';
+    src: url('cookie-regular-webfont.eot');
+    src: url('cookie-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cookie-regular-webfont.woff2') format('woff2'),
+         url('cookie-regular-webfont.woff') format('woff'),
+         url('cookie-regular-webfont.ttf') format('truetype'),
+         url('cookie-regular-webfont.svg#cookieregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

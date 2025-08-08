@@ -1,0 +1,88 @@
+/**== CSS for the blog page template ==**/
+.kt-blog-post{
+    margin:0 0 50px 0;
+    border: 2px solid #7bcbd2;
+    text-align: center;
+}
+.kt-blog-post.inverted{
+    background:#7BCBD2;
+    color:#ffffff;
+}
+
+.kt-blog-post.inverted > .kt-blog-list-body a,
+.kt-blog-post.inverted > .kt-blog-list-body i{
+    color:#ffffff !important;
+}
+.kt-blog-post.inverted > .kt-blog-list-body > .blog-list-read-more{
+    border:1px solid #ffffff;
+}
+.kt-blog-post.inverted > .kt-blog-list-body > .blog-list-read-more:hover{
+    border:1px solid #ffffff;
+    background: #ffffff;
+    color:#7BCBD2 !important;
+}
+.kt-blog-post-image{
+    position:relative;
+}
+
+.kt-blog-list-body{
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:0 30px;
+
+}
+.kt-blog-list-body h2{
+    font-size:22px;
+    margin:5px 0;
+    font-family: "Raleway Semi Bold";
+}
+.gallery-format-slider{
+    padding:0;
+}
+.gallery-format-slider .owl-wrapper-outer{
+    max-height:350px;
+}
+.blog-list-meta{
+    font-size:12px;
+    padding:0px !important;
+}
+.blog-list-meta p{
+    margin:3px 0 !important;
+}
+.blog-list-meta a{
+    font-size:12px;
+    font-family: "Raleway Light";
+    color:#afafaf;
+}
+.blog-list-meta a:hover{
+    color:#000000 !important;
+}
+.blog-list-meta i{
+    color:#afafaf;
+}
+.blog-list-meta a:hover > i{
+    color:#afafaf;
+}
+.blog-list-meta > .kt-post-meta-body{
+    color:#afafaf;
+}
+.blog-list-meta .kt-post-meta-body i.fa.fa-tags{
+    margin:0 5px 0 0;
+    color:#afafaf;
+}
+.blog-list-read-more{
+    margin:20px 0 0 0;
+    display: inline-block;
+    border:2px solid #7bcbd2;
+    padding:8px 20px;
+    font-family: "Raleway Bold";
+}
+.blog-list-read-more:hover{
+    background:#7BCBD2;
+    color:#ffffff;
+}
+.no-thumb-meta{
+    position:absolute;
+    bottom:10px;
+}

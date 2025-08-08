@@ -1,0 +1,91 @@
+/**
+* Styling wpcf7 forms.
+*/
+.wpcf7{
+    width:100%;
+    margin:0 auto;
+    display: block;
+}
+.wpcf7 p{
+    font-size:13px;
+    color:#000000;
+}
+.wpcf7-form-control {
+    font-family: "Raleway Regular";
+    font-size:13px;
+    color:#000000;
+    margin: 0 auto !important;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="tel"]{
+    padding:4px 8px;
+    text-align: center;
+    border:1px solid #7bcbd2;
+    width:100%;
+    margin:3px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.wpcf7 select{
+    border:1px solid #7bcbd2;
+    padding:4px 8px;
+    border:2px solid #7bcbd2;
+    width:50%;
+    margin:3px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.wpcf7 textarea{
+    border:1px solid #7bcbd2;
+    padding:4px 8px;
+    border:1px solid #7bcbd2;
+    width:100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+}
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="password"]:focus,
+.wpcf7 input[type="url"]:focus,
+.wpcf7 input[type="url"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 textarea:focus{
+
+    border:3px solid #7bcbd2;
+    box-shadow: none;
+
+}
+.wpcf7 input[type="submit"]{
+    padding:10px 50px;
+    background: #7bcbd2;
+    color:#ffffff;
+    border:none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.wpcf7 input[type="submit"]:hover{
+    background: #7bcbd2;
+    color:#7bcbd2;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+div.wpcf7-validation-errors{
+    border:2px solid #7bcbd2 !important;
+    padding:5px 10px;
+    color:#7bcbd2;
+    font-size:13px;
+}
+div.wpcf7-response-output{
+    margin:15px 0;
+}
