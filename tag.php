@@ -9,8 +9,7 @@ get_header(); ?>
             <?php single_tag_title(_e('You are viewing posts tagged with: ', 'greek-restaurant')); ?>
             <?php if ($paged > 1):
                 echo
-                    '<small>' . __('   Page:
-','greek-restaurant') . $paged
+                    '<small>' . __('Page:','greek-restaurant') . $paged
                     . '</small>'; endif; ?>
         </h1><!-- .entry-title -->
     </header>

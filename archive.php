@@ -15,8 +15,7 @@ get_header(); ?>
 
             <?php if ($paged > 1):
                 echo
-                    '<small>' . __('   Page:
-', 'greek-restaurant') . $paged
+                    '<small>' . __('Page:', 'greek-restaurant') . $paged
                     . '</small>'; endif; ?>
         </h1><!-- .entry-title -->
     </header>

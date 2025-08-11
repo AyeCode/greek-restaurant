@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Greek Restaurant Theme 3.1.0\n"
+"Project-Id-Version: Greek Restaurant Theme 3.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-11 17:17+0530\n"
+"POT-Creation-Date: 2025-08-11 21:23+0530\n"
 "PO-Revision-Date: 2025-08-08 10:57+0000\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
@@ -34,7 +34,7 @@ msgid "Archive for "
 msgstr ""
 
 #: archive.php:18 category.php:11 search.php:11 tag.php:12
-msgid "   Page:\n"
+msgid "Page:"
 msgstr ""
 
 #: category.php:8
@@ -64,15 +64,15 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:53
+#: footer.php:52
 msgid "https://wpgeodirectory.com/"
 msgstr ""
 
-#: footer.php:54
+#: footer.php:53
 msgid "Greek Restaurant Theme"
 msgstr ""
 
-#: footer.php:56
+#: footer.php:55
 msgid "&copy;"
 msgstr ""
 

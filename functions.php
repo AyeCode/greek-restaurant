@@ -331,7 +331,7 @@ if(!function_exists('greek_restaurant_comment')):
         <div class="comment-author vcard">
             <?php
             if ( $args['avatar_size'] != 0 ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
-            <?php printf( __( '<cite class="fn">%s</cite> <span class="says">says:</span>' ), get_comment_author_link() ); ?>
+            <?php printf( __( '<cite class="fn">%s</cite> <span class="says">says:</span>','greek-restaurant' ), get_comment_author_link() ); ?>
 
             <div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
                     <?php
@@ -362,3 +362,21 @@ endif;
 
  require_once(get_template_directory().'/framework/ketchup-functions.php');
  require_once(get_template_directory().'/framework/libs/class-tgm-plugin-activation.php');
+ 
+ if ( ! function_exists( 'wp_body_open' ) ) :
+	/**
+	 * Fire the wp_body_open action.
+	 *
+	 * Added for backward compatibility to support pre-5.2.0 WordPress versions.
+	 *
+	 * @since 3.1.1
+	 */
+	function wp_body_open() {
+		/**
+		 * Triggered after the opening <body> tag.
+		 *
+		 * @since Chinese Restaurant 3.1.1
+		 */
+		do_action( 'wp_body_open' );
+	}
+endif;

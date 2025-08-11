@@ -14,6 +14,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <div class="site-loader"></div>
 <header id="masthead" class="site-header clearfix">
     <!-- header area -->
@@ -37,14 +38,13 @@
                     <div class="col-md-12">
                         <?php
                         $greek_restaurant_walker = new Greek_Menu_With_Description();
-                        $greek_restaurant_menu_args = array(
+                        wp_nav_menu(array(
                             'theme_location' => 'main',
                             'fallback_cb' => 'greek_restaurant_fallback_menu',
                             'container' => false,
                             'menu_id' => 'kt-navigation',
                             'echo' => true,
-                            'walker' => $greek_restaurant_walker);
-                        wp_nav_menu($greek_restaurant_menu_args);
+                            'walker' => $greek_restaurant_walker));
                         ?>
                     </div>
                 </div>
