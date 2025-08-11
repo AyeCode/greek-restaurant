@@ -1,0 +1,1323 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Greek Restaurant Theme 3.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-11 17:17+0530\n"
+"PO-Revision-Date: 2025-08-08 10:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Well, this page does not exist. Maybe search something else?"
+msgstr ""
+
+#: archive.php:8
+msgid "Archive for: "
+msgstr ""
+
+#: archive.php:10 archive.php:12
+msgid "Archive for "
+msgstr ""
+
+#: archive.php:18 category.php:11 search.php:11 tag.php:12
+msgid "   Page:\n"
+msgstr ""
+
+#: category.php:8
+msgid "You are viewing posts in: "
+msgstr ""
+
+#: comments.php:13
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:20 comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:21 comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:22 comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:53
+msgid "https://wpgeodirectory.com/"
+msgstr ""
+
+#: footer.php:54
+msgid "Greek Restaurant Theme"
+msgstr ""
+
+#: footer.php:56
+msgid "&copy;"
+msgstr ""
+
+#: framework/ketchup-functions.php:43
+#: framework/libs/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/ketchup-functions.php:44
+#: framework/libs/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/ketchup-functions.php:45
+#: framework/libs/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/ketchup-functions.php:46
+#: framework/libs/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/ketchup-functions.php:47
+#: framework/libs/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:48
+#: framework/libs/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:49
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:50
+#: framework/libs/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:52
+#: framework/libs/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:54
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:55
+#: framework/libs/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:56
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:57
+#: framework/libs/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural ""
+"Begin\n"
+"            installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:59
+#: framework/libs/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural ""
+"Begin\n"
+"            activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/ketchup-functions.php:61
+#: framework/libs/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/ketchup-functions.php:62
+#: framework/libs/class-tgm-plugin-activation.php:394
+#: framework/libs/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/ketchup-functions.php:63
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/ketchup-functions.php:80
+msgid "Top Bar Settings"
+msgstr ""
+
+#: framework/ketchup-functions.php:81
+msgid "General Settings for the top bar."
+msgstr ""
+
+#: framework/ketchup-functions.php:117
+msgid "Enable/Disable the top bar area"
+msgstr ""
+
+#: framework/ketchup-functions.php:122
+msgid "Disabled"
+msgstr ""
+
+#: framework/ketchup-functions.php:123
+msgid "Enabled"
+msgstr ""
+
+#: framework/ketchup-functions.php:131
+msgid "Top address"
+msgstr ""
+
+#: framework/ketchup-functions.php:141
+msgid "Top telephone"
+msgstr ""
+
+#: framework/ketchup-functions.php:152
+msgid "General Settings"
+msgstr ""
+
+#: framework/ketchup-functions.php:153
+msgid "General Settings for this theme."
+msgstr ""
+
+#: framework/ketchup-functions.php:207
+msgid "Upload a favicon"
+msgstr ""
+
+#: framework/ketchup-functions.php:220
+msgid "Upload a logo"
+msgstr ""
+
+#: framework/ketchup-functions.php:232
+msgid "Currency sign - PRO only"
+msgstr ""
+
+#: framework/ketchup-functions.php:242
+msgid "Blog page  - Posts per page - PRO only"
+msgstr ""
+
+#: framework/ketchup-functions.php:246
+msgid "6"
+msgstr ""
+
+#: framework/ketchup-functions.php:247
+msgid "10"
+msgstr ""
+
+#: framework/ketchup-functions.php:248
+msgid "14"
+msgstr ""
+
+#: framework/ketchup-functions.php:249
+msgid "16"
+msgstr ""
+
+#: framework/ketchup-functions.php:250
+msgid "18"
+msgstr ""
+
+#: framework/ketchup-functions.php:251
+msgid "20"
+msgstr ""
+
+#: framework/ketchup-functions.php:252
+msgid "22"
+msgstr ""
+
+#: framework/ketchup-functions.php:253
+msgid "26"
+msgstr ""
+
+#: framework/ketchup-functions.php:261
+msgid "Disable OpenGraph Tags - PRO Only"
+msgstr ""
+
+#: framework/ketchup-functions.php:265 framework/ketchup-functions.php:1870
+#: framework/ketchup-functions.php:1896 framework/ketchup-functions.php:1910
+#: framework/ketchup-functions.php:1960
+msgid "No"
+msgstr ""
+
+#: framework/ketchup-functions.php:266 framework/ketchup-functions.php:1869
+#: framework/ketchup-functions.php:1897 framework/ketchup-functions.php:1911
+#: framework/ketchup-functions.php:1961
+msgid "Yes"
+msgstr ""
+
+#: framework/ketchup-functions.php:276
+msgid "Header Images"
+msgstr ""
+
+#: framework/ketchup-functions.php:277
+msgid ""
+"The header images that are visible in specific pages like\n"
+"            category, archive, tag, etc."
+msgstr ""
+
+#: framework/ketchup-functions.php:334
+msgid "Blog Template Header Image "
+msgstr ""
+
+#: framework/ketchup-functions.php:346
+msgid "Category Header Image "
+msgstr ""
+
+#: framework/ketchup-functions.php:358
+msgid "Tag Header Image "
+msgstr ""
+
+#: framework/ketchup-functions.php:369
+msgid "Archive Header Image "
+msgstr ""
+
+#: framework/ketchup-functions.php:380
+msgid "Search Header Image "
+msgstr ""
+
+#: framework/ketchup-functions.php:391
+msgid "Styling"
+msgstr ""
+
+#: framework/ketchup-functions.php:392
+msgid "Description of what this panel does."
+msgstr ""
+
+#: framework/ketchup-functions.php:400
+msgid "Social Icon Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:401
+msgid "CSS styles of the social icons."
+msgstr ""
+
+#: framework/ketchup-functions.php:411
+msgid "Navigation Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:412
+msgid ""
+"CSS styles of the navigation menus.Change link colors,\n"
+"            hovers, sub-menu colors."
+msgstr ""
+
+#: framework/ketchup-functions.php:423
+msgid "General Element Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:424
+msgid ""
+"CSS styles of the general elements like body colors,\n"
+"            paragraph colors"
+msgstr ""
+
+#: framework/ketchup-functions.php:434
+msgid "Comment Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:435
+msgid "CSS styles of the comment section."
+msgstr ""
+
+#: framework/ketchup-functions.php:445
+msgid "Sidebar Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:446
+msgid "CSS styles of the main sidebar styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:456
+msgid "Specific Widget styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:457
+msgid "CSS styles of specific widgets."
+msgstr ""
+
+#: framework/ketchup-functions.php:467
+msgid "Footer Area."
+msgstr ""
+
+#: framework/ketchup-functions.php:468
+msgid "CSS style of the footer."
+msgstr ""
+
+#: framework/ketchup-functions.php:478
+msgid "Footer widget styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:479
+msgid "CSS styles of the footer styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:489
+msgid "Copyright styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:490
+msgid "CSS styles of the copyright area."
+msgstr ""
+
+#: framework/ketchup-functions.php:500
+msgid "Other Styles."
+msgstr ""
+
+#: framework/ketchup-functions.php:501
+msgid "CSS styles other elements."
+msgstr ""
+
+#: framework/ketchup-functions.php:939
+msgid "Color of the social icon."
+msgstr ""
+
+#: framework/ketchup-functions.php:951
+msgid "Background color of the icon."
+msgstr ""
+
+#: framework/ketchup-functions.php:963
+msgid "Icon color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:975
+msgid "Background color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:989
+msgid "Current Menu item color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1001
+msgid "Menu link color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1013
+msgid "Menu link color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1025
+msgid "Submenu background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1037
+msgid "Submenu background color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1050
+msgid "Submenu link color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1063
+msgid "Submenu link color - hover color"
+msgstr ""
+
+#: framework/ketchup-functions.php:1078
+msgid "H1-H6 heading color"
+msgstr ""
+
+#: framework/ketchup-functions.php:1091
+msgid "Applies to page links"
+msgstr ""
+
+#: framework/ketchup-functions.php:1104
+msgid "Applies to page links - hover state"
+msgstr ""
+
+#: framework/ketchup-functions.php:1117
+msgid "Applies to main body text"
+msgstr ""
+
+#: framework/ketchup-functions.php:1133
+msgid "Headings in comment section"
+msgstr ""
+
+#: framework/ketchup-functions.php:1146
+msgid "Links in comment section"
+msgstr ""
+
+#: framework/ketchup-functions.php:1159
+msgid "Links in comment section - Hover state"
+msgstr ""
+
+#: framework/ketchup-functions.php:1172
+msgid "Submit comment button background"
+msgstr ""
+
+#: framework/ketchup-functions.php:1185
+msgid "Submit comment button text color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1198
+msgid "Submit comment button background color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1211
+msgid "Submit comment button text color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1227
+msgid "Widget headings color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1240
+msgid "Widget link color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1253
+msgid "Widget link color - hover state"
+msgstr ""
+
+#: framework/ketchup-functions.php:1266
+msgid "Widget text body color"
+msgstr ""
+
+#: framework/ketchup-functions.php:1281
+msgid "Tagcloud tag background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1294
+msgid "Tagcloud text color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1307
+msgid "Tagcloud background color - hover"
+msgstr ""
+
+#: framework/ketchup-functions.php:1320
+msgid "Tagcloud text color - hover."
+msgstr ""
+
+#: framework/ketchup-functions.php:1333
+msgid "Calendar widget header background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1346
+msgid "Calendar widget header text color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1359
+msgid "Calendar widget link background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1372
+msgid "Calendar widget link hover background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1387
+msgid "Footer Background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1402
+msgid "Footer widget heading color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1415
+msgid "Footer widget links color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1428
+msgid "Footer widget links color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1441
+msgid "Footer widget body text color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1454
+msgid "Footer widget tagcloud background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1467
+msgid "Footer widget tagcloud text color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1480
+msgid "Footer widget tagcloud background color. hover state"
+msgstr ""
+
+#: framework/ketchup-functions.php:1493
+msgid "Footer widget tagcloud text color - hover state"
+msgstr ""
+
+#: framework/ketchup-functions.php:1509
+msgid "Copyright area background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1522
+msgid "Copyright area links color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1535
+msgid "Copyright area links color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1548
+msgid "Copyright area text color - hover state."
+msgstr ""
+
+#: framework/ketchup-functions.php:1563
+msgid "Slide title color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1577
+msgid "Slider pager background color."
+msgstr ""
+
+#: framework/ketchup-functions.php:1590
+msgid "Social Networks"
+msgstr ""
+
+#: framework/ketchup-functions.php:1591
+msgid "Add your social networks."
+msgstr ""
+
+#: framework/ketchup-functions.php:1684
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1694
+msgid "Twitter URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1704
+msgid "Google plus URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1714
+msgid "Pinterest URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1724
+msgid "Linkedin URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1734
+msgid "RSS URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1744
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1754
+msgid "Instagram URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1764
+msgid "Youtube URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1774
+msgid "Vimeo URL"
+msgstr ""
+
+#: framework/ketchup-functions.php:1787
+msgid "Slider Settings"
+msgstr ""
+
+#: framework/ketchup-functions.php:1788
+msgid "Slider Settings."
+msgstr ""
+
+#: framework/ketchup-functions.php:1865
+msgid "Disable Slider"
+msgstr ""
+
+#: framework/ketchup-functions.php:1880
+msgid "Slides Number"
+msgstr ""
+
+#: framework/ketchup-functions.php:1892
+msgid "Show pager?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1906
+msgid "Show arrow navigation ?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1920
+msgid "Transition Type ?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1924
+msgid "Fade"
+msgstr ""
+
+#: framework/ketchup-functions.php:1925
+msgid "Horizontal"
+msgstr ""
+
+#: framework/ketchup-functions.php:1926
+msgid "Vertical"
+msgstr ""
+
+#: framework/ketchup-functions.php:1935
+msgid "Slide speed ?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1946
+msgid "Pause between slides ?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1956
+msgid "Autoplay?"
+msgstr ""
+
+#: framework/ketchup-functions.php:1972
+msgid "Contact Page"
+msgstr ""
+
+#: framework/ketchup-functions.php:1973
+msgid "Settings for page templates in this theme."
+msgstr ""
+
+#: framework/ketchup-functions.php:2102
+msgid "Google Map . Please write only the source (src) of the iframe"
+msgstr ""
+
+#: framework/ketchup-functions.php:2113
+msgid "Contact Form title."
+msgstr ""
+
+#: framework/ketchup-functions.php:2124
+msgid ""
+"Contact Form shortcode.Paste the shortcode from the  \"Contact form\n"
+"             7\"\n"
+"            plugin."
+msgstr ""
+
+#: framework/ketchup-functions.php:2137
+msgid "Contact details title."
+msgstr ""
+
+#: framework/ketchup-functions.php:2148
+msgid "Write your address"
+msgstr ""
+
+#: framework/ketchup-functions.php:2159
+msgid "Write your phone"
+msgstr ""
+
+#: framework/ketchup-functions.php:2170
+msgid "Write your email"
+msgstr ""
+
+#: framework/ketchup-functions.php:2181
+msgid "Monday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2192
+msgid "Tuesday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2203
+msgid "Wednesday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2214
+msgid "Thursday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2225
+msgid "Friday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2236
+msgid "Saturday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2247
+msgid "Sunday Working hours"
+msgstr ""
+
+#: framework/ketchup-functions.php:2260
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/ketchup-functions.php:2261
+msgid "Add your copyright. You can use HTML."
+msgstr ""
+
+#: framework/ketchup-functions.php:2279
+msgid "Copyright Area text"
+msgstr ""
+
+#: framework/ketchup-functions.php:2308
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/ketchup-functions.php:2355
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: framework/ketchup-functions.php:2364
+msgid "PRO"
+msgstr ""
+
+#: framework/ketchup-functions.php:2470
+msgid "&laquo;"
+msgstr ""
+
+#: framework/ketchup-functions.php:2471
+msgid "&raquo;"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:393
+#: framework/libs/class-tgm-plugin-activation.php:920
+#: framework/libs/class-tgm-plugin-activation.php:2626
+#: framework/libs/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:395
+#: framework/libs/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:1027
+#: framework/libs/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:1214
+#: framework/libs/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3045
+msgid "The following plugins were activated successfully:"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3602
+#: framework/libs/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3602
+#: framework/libs/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/libs/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/templates/content-archive.php:41
+#: framework/templates/content-blog-page.php:50
+#: framework/templates/content-category.php:41
+#: framework/templates/content-post-template.php:27
+#: framework/templates/content-search.php:40
+#: framework/templates/content-tag.php:40
+msgid "No comments"
+msgstr ""
+
+#: framework/templates/content-archive.php:42
+#: framework/templates/content-blog-page.php:51
+#: framework/templates/content-category.php:42
+#: framework/templates/content-post-template.php:28
+#: framework/templates/content-search.php:41
+#: framework/templates/content-tag.php:41
+msgid "1 Comment"
+msgstr ""
+
+#: framework/templates/content-archive.php:42
+#: framework/templates/content-blog-page.php:51
+#: framework/templates/content-category.php:42
+#: framework/templates/content-post-template.php:28
+#: framework/templates/content-search.php:41
+#: framework/templates/content-tag.php:41
+msgid "% Comments"
+msgstr ""
+
+#: framework/templates/content-archive.php:51
+#: framework/templates/content-blog-page.php:60
+#: framework/templates/content-category.php:51
+#: framework/templates/content-search.php:50
+#: framework/templates/content-tag.php:50
+msgid "Posted by "
+msgstr ""
+
+#: framework/templates/content-archive.php:59
+#: framework/templates/content-blog-page.php:68
+#: framework/templates/content-category.php:60
+#: framework/templates/content-search.php:59
+#: framework/templates/content-tag.php:59
+msgid "READ MORE"
+msgstr ""
+
+#: framework/templates/content-page-full.php:27
+#: framework/templates/content-page-template.php:27
+msgid "Pages:"
+msgstr ""
+
+#: framework/templates/content-page-full.php:51
+#: framework/templates/content-page-template.php:52
+msgid "Well, it seems that nothing is here.."
+msgstr ""
+
+#: framework/templates/content-post-template.php:23
+msgid "by "
+msgstr ""
+
+#: functions.php:34
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:35
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:138
+msgid "Add a menu"
+msgstr ""
+
+#: functions.php:276
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:278
+msgid ""
+"This is the main sidebar.It is in every page - post and\n"
+"        in the blog page. However you can override this setting from within "
+"each post."
+msgstr ""
+
+#: functions.php:289
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:291
+msgid "This is the sidebar in the footer, on the left"
+msgstr ""
+
+#: functions.php:299
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:301
+msgid ""
+"This is the sidebar in the footer, the second on the\n"
+"        right"
+msgstr ""
+
+#: functions.php:334
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:338
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:338
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:344
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: search.php:8
+#, php-format
+msgid "Search results for the term: %s"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:6
+msgid "Widgetized Sidebar"
+msgstr ""
+
+#: sidebar.php:7
+msgid ""
+"This panel is active and ready for you to add\n"
+"            some widgets via the WP Admin"
+msgstr ""
+
+#: tag.php:9
+msgid "You are viewing posts tagged with: "
+msgstr ""

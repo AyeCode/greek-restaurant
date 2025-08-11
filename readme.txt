@@ -1,8 +1,17 @@
-== Greek Restaurant Theme  ==
+=== Greek Restaurant Theme ===
+Contributors: ayecode, stiofansisland
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.2
+Stable tag: 3.1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Greek Restaurant WordPress Theme is mainly targeted for Greek restaurants, barbecues, pizzerias and more.
+
+== Description ==
 
  Greek Restaurant is a lightweight, responsive Twitter bootstrap theme for restaurants, barbecues, pizzerias and more, ideal for mobile, pc and tablet devices. Some of it's features includes custom menus, header, customizer panel, full width pages, shortcodes and a fully featured Restaurant Reservation System that allows you to accept reservations from your customers. It's seo friendly as it uses semantic seo coding (roles - microdata etc).
-
-/**********************************************************/
 
 == COPYRIGHT AND LICENSE ==
 
@@ -31,45 +40,35 @@ https://pixabay.com/el/%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE-%CF%83%C
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-Greek Restaurant Theme WordPress Theme, Copyright 2014 Ketchupthemes.com
+Greek Restaurant Theme WordPress Theme, Copyright 2019 AyeCode Ltd
 Greek Restaurant Theme is distributed under the terms of the GNU GPL
-
-/**********************************************************/
-
 
 = Theme Features Usage =
 All available options can be used from Appearance->Theme Options
 Theme supports no more than three levels deep navigation.
 There is also a footer menu available.
 
-/**********************************************************/
-
 == TRANSLATIONS ==
 
-There is a language folder within the theme directory and it contains
-the "greek-restaurant.pot".
-
-/**********************************************************/
+There is a language folder within the theme directory and it contains the "greek-restaurant.pot".
 
 == EXTRAS ==
 
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=fad8fcd2aa7ca5ecdd69
 
-/**********************************************************/
+== Changelog ==
 
-== CHANGE LOG ==
-
-= 3.1.0 - 2025-08-TBD =
+= 3.1.0 - 2025-08-11 =
 * XSS vulnerability fix - SECURITY
 
-= 1.0 =
-Initial Release
-
-= 1.1 =
-Minor css fixes, new panel integration.
+= 3.0 =
+* Complete Rewrite with customizer enabled.
 
 = 2.0 =
-CSS rewrite, new theme options panel.
+* CSS rewrite, new theme options panel.
 
-= 3.0 =
-Complete Rewrite with customizer enabled.
+= 1.1 =
+* Minor css fixes, new panel integration.
+
+= 1.0 =
+* Initial Release

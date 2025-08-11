@@ -2351,7 +2351,7 @@ function greek_restaurant_upsell_notice()
         'prefix-customizer-upsell',
         'prefixL10n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/greek-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('Upgrade To Premium', 'greek-restaurant')
         )
     );
@@ -2360,7 +2360,7 @@ function greek_restaurant_upsell_notice()
         'prefix-customizer-pro',
         'prefixL11n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/greek-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('PRO', 'greek-restaurant')
         )
     );

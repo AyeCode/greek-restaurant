@@ -50,10 +50,8 @@
                 <div class="col-md-12 text-center">
 
                     <p>
-                        <a rel="nofollow" href="<?php echo esc_url(__(
-                            'http://ketchupthemes.com/greek-restaurant-theme/', 'greek-restaurant')); ?>">
-                            <small><?php printf(__('Greek Restaurant Theme', 'greek-restaurant'));
-                                ?></small>
+                        <a rel="nofollow" href="<?php echo esc_url( __( 'https://wpgeodirectory.com/', 'greek-restaurant')); ?>">
+                            <small><?php printf(__('Greek Restaurant Theme', 'greek-restaurant')); ?></small>
                         </a>,
                         <small><?php echo __('&copy;', 'greek-restaurant') . date('Y'); ?></small>
                         <small><?php bloginfo('name'); ?></small>
