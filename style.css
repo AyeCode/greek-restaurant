@@ -1,21 +1,18 @@
 /*
 Theme Name: Greek Restaurant
-Theme URI: http://ketchupthemes.com/greek-restaurant-theme/
-Author: Alexandros Itsios
-Author URI: http://ketchupthemes/alex-itsios
+Theme URI: https://wpgeodirectory.com/
+Author: AyeCode Ltd
+Author URI: https://ayecode.io/
 Description: Greek Restaurant is a lightweight, responsive Twitter bootstrap theme for restaurants, barbecues, pizzerias and more, ideal for mobile, pc and tablet devices. Some of it's features includes custom menus, header, customizer panel, full width pages, shortcodes and a fully featured Restaurant Reservation System that allows you to accept reservations from your customers. It's seo friendly as it uses semantic seo coding (roles - microdata etc).
-Version: 3.0
+Tags: blue, white, dark, light, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, greek restaurant, restaurant, sticky-post, theme-options, threaded-comments, translation-ready
+Version: 3.1.0
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags:blue, white, dark, light, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
-TextDomain: greek-restaurant
+Text Domain: greek-restaurant
 */
-
-/**
-*
-* WORDPRESS RELATED CLASSES
-*
-**/
 
 /**== WordPress Core Classes ==**/
 

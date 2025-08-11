@@ -1,9 +1,8 @@
 <?php
-/**==================== =
- * Main Functions file.
- * Please be careful when
- * editing.
- *===================== */
+/**
+ * The theme version.
+ */
+define( 'GREEK_RESTAURANT_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**=== Setup Theme == **/
 

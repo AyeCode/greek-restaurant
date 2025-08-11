@@ -8,8 +8,7 @@ get_header(); ?>
                 <div id="kt-content" class="clearfix">
                     <div id="error-404" class="text-center">
                         <i id="error-icon" class="fa fa-thumbs-down fa-5x"></i>
-                        <h4><?php echo __('Well, this page does not exist. Maybe search
-                    something else?', 'greek-restaurant'); ?></h4>
+                        <h4><?php echo __('Well, this page does not exist. Maybe search something else?', 'greek-restaurant'); ?></h4>
                         <?php echo get_search_form(); ?>
                     </div>
 
