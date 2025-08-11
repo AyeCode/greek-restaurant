@@ -8,8 +8,7 @@ get_header(); ?>
         <?php echo esc_html( wp_sprintf( __( 'Search results for the term: %s', 'greek-restaurant' ), get_search_query( false ) ) ); ?>
         <?php if($paged > 1):
             echo
-                '<small>'.__('   Page:
-').$paged
+                '<small>'.__('Page:', 'greek-restaurant').$paged
                 .'</small>'; endif; ?>
     </h1><!-- .entry-title -->
     </header>

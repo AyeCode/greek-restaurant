@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,13 +31,6 @@ Resources packed within the theme.
 
 * Other custom js files are our own creation and is licensed under the same license as this theme.
 
-About Images in demo -- All images below are licensed under CC0
-https://pixabay.com/el/%CF%83%CE%B1%CE%BB%CE%AC%CF%84%CE%B1-%CF%84%CF%81%CE%BF%CF%86%CE%AF%CE%BC%CF%89%CE%BD-%CE%B5%CF%83%CF%84%CE%B9%CE%B1%CF%84%CF%8C%CF%81%CE%B9%CE%BF-%CE%BF%CF%81%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-775715/
-https://pixabay.com/el/katoshka-%CF%83%CE%BF%CF%85%CE%B2%CE%BB%CE%AC%CE%BA%CE%B9%CE%B1-%CE%BA%CE%B1%CE%BB%CE%BF%CE%BA%CE%B1%CE%AF%CF%81%CE%B9-peknik-775704/
-https://pixabay.com/el/%CE%BF%CF%81%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%84%CF%85%CF%81%CE%AF-%CE%B1%CE%B3%CE%B3%CE%BF%CF%8D%CF%81%CE%B9-%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%BF%CF%86%CE%AE-21524/
-
-https://pixabay.com/el/%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE-%CF%83%CE%B1%CE%BB%CE%AC%CF%84%CE%B1-%CE%AD%CE%BB%CE%BB%CE%B7%CE%BD%CE%B5%CF%82-%CF%83%CE%B1%CE%BB%CE%AC%CF%84%CE%B1-%CF%86%CE%AD%CF%84%CE%B1-689674/
-
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
 Greek Restaurant Theme WordPress Theme, Copyright 2019 AyeCode Ltd
@@ -57,6 +50,9 @@ There is a language folder within the theme directory and it contains the "greek
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=fad8fcd2aa7ca5ecdd69
 
 == Changelog ==
+
+= 3.1.1 - 2025-08-11 =
+* Theme Check compatibility - CHANGED
 
 = 3.1.0 - 2025-08-11 =
 * XSS vulnerability fix - SECURITY

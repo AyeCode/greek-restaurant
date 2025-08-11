@@ -8,8 +8,7 @@ get_header(); ?>
             <?php single_cat_title(_e('You are viewing posts in: ', 'greek-restaurant')); ?>
             <?php if ($paged > 1):
                 echo
-                    '<small>' . __('   Page:
-','greek-restaurant') . $paged
+                    '<small>' . __('Page:','greek-restaurant') . $paged
                     . '</small>';
 
             endif; ?>
